@@ -9,7 +9,6 @@
 | 贡献者 / 制作者 | [Xarles-Lovell](https://github.com/Xarles-Lovell) |
 | 版本号 | `1` |
 | 更新日期 | `2026-09-15` |
-| 原文链接 | 待推文发布后补充 |
 
 ## 文件
 
