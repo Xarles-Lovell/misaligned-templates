@@ -1,6 +1,6 @@
 {
-  "name": "对不齐·纸张黄标报刊",
-  "version": 1,
+  "name": "黑黄大字报",
+  "version": "v1.0.0",
   "colors": {
     "text": "#111111",
     "bg": "#FFFFFF",
