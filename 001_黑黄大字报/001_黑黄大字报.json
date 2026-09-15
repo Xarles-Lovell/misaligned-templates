@@ -1,0 +1,23 @@
+{
+  "name": "对不齐·纸张黄标报刊",
+  "version": 1,
+  "colors": {
+    "text": "#111111",
+    "bg": "#FFFFFF",
+    "accent": "#FFDB00",
+    "decor": "#E4E4E0"
+  },
+  "wrapper": "box-sizing:border-box;border-radius:0;box-shadow:none;padding:24px 22px;background-color:{bg};background-image:radial-gradient(circle,{decor} 1px,transparent 1.2px);background-size:16px 16px;background-position:0 0;color:{text};font-family:PingFang SC,Microsoft YaHei,sans-serif;",
+  "blocks": {
+    "cover": "<section style='margin:0 0 28px;text-align:left;color:{text};font-size:18px;font-weight:400;line-height:1.55;letter-spacing:0.5px;'><span style='color:{accent};font-size:22px;line-height:1;'>●</span><span style='margin-left:12px;'>{content}</span></section>",
+    "h1": "<section style='margin:0 0 28px;padding:0;color:{text};font-family:Arial Black,PingFang SC,Microsoft YaHei,sans-serif;font-size:36px;font-weight:900;line-height:1.25;letter-spacing:0.5px;word-break:break-all;'><span style='background:linear-gradient(to bottom,transparent 0%,transparent 51%,{accent} 51%,{accent} 92%,transparent 92%);-webkit-box-decoration-break:clone;box-decoration-break:clone;'>{content}</span></section>",
+    "h2": "<section style='margin:24px 0 10px;color:{text};font-family:Arial Black,PingFang SC,Microsoft YaHei,sans-serif;font-size:27px;font-weight:900;line-height:1.35;letter-spacing:0.5px;word-break:break-all;'><span style='display:inline-block;width:10px;height:28px;margin:0 14px -3px 0;background:{accent};'></span>{content}</section>",
+    "h3": "<section style='margin:0 0 12px;color:{text};font-size:18px;font-weight:700;line-height:1.8;letter-spacing:0.5px;word-break:break-all;'><span style='background:linear-gradient(to bottom,transparent 0%,transparent 54%,{accent} 54%,{accent} 88%,transparent 88%);-webkit-box-decoration-break:clone;box-decoration-break:clone;padding:0 2px;color:{text};font-weight:700;'>{content}</span></section>",
+    "body": "<section style='margin:0 0 18px;color:{text};font-size:18px;font-weight:400;line-height:1.8;letter-spacing:0.5px;text-align:left;text-indent:2em;word-break:break-all;'>{content}</section>",
+    "highlight": "<span style='display:inline;background:linear-gradient(to bottom,transparent 0%,transparent 54%,{accent} 54%,{accent} 88%,transparent 88%);-webkit-box-decoration-break:clone;box-decoration-break:clone;padding:0 2px;color:{text};font-size:inherit;font-weight:inherit;line-height:inherit;'>{content}</span>",
+    "quote": "<section style='box-sizing:border-box;margin:0 0 30px;padding:20px 25px 22px;border:1px solid {text};border-left:10px solid {accent};border-radius:10px;background:transparent;color:{text};font-size:18px;font-weight:400;line-height:1.75;letter-spacing:0.5px;word-break:break-all;'><span style='display:block;height:31px;margin:0 0 7px;font-family:Georgia,serif;font-size:52px;font-weight:900;line-height:0.8;color:{text};'>“</span><span style='display:block;'>{content}</span><span style='display:block;margin-top:12px;text-align:right;font-size:14px;font-weight:400;line-height:1.5;color:{text};'>{byline}</span></section>",
+    "divider": "<section style='margin:18px 0 24px;text-align:center;color:{accent};font-size:18px;line-height:1;'>●　●　●</section>",
+    "image": "<section style='box-sizing:border-box;margin:22px auto 26px;padding:0 4px;text-align:center;background:transparent;'><img src='{src}' style='display:block;width:100%;height:auto;margin:0 auto;background:transparent;border:0;box-shadow:none;' /></section>",
+    "footer": "<section style='margin:0;padding:0;color:{text};word-break:break-all;'><section style='margin:0;text-align:right;font-size:16px;font-weight:400;line-height:1.5;letter-spacing:0.3px;'><span style='vertical-align:middle;'>{content}</span><span style='margin-left:10px;color:{accent};font-size:22px;line-height:1;vertical-align:middle;'>●</span></section><section style='margin-top:6px;text-align:center;font-size:13px;font-weight:400;line-height:1.45;letter-spacing:0.8px;color:{text};'>—「对不齐」网站排版 —</section></section>"
+  }
+}
